@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protfolio</title>
+    <!-- font awsome link -->
+    <link rel="stylesheet" href="css/fontawsome.all.css">
+    <!-- bootstrap cdn -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css/">
 </head>
@@ -12,7 +15,7 @@
     <!-- nav bar part start -->
 
 <section id="nav">
-    <nav class="navbar navbar-expand-md ">
+    <nav class="navbar navbar-expand-md fixed-top">
         <div class="container">
 
         <!-- Brand -->
@@ -61,21 +64,27 @@
     <!-- nav bar part end -->
 
     <!-- Home part start -->
-    <section id="Home-Part">
+    <section class="Home-Part d-flex align-items-center">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-7 bg-info">
+            <div class="row align-items-center">
+                <div class="col-lg-7 ">
                     <div class="home-text">
                         <h1>Best Mobile App Template for your business</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil beatae dolorum quos pariatur libero nam hic maiores ea obcaecati?</p>
                         <div class="home-btn">
                             <a href="" class="btn btn-1">Download App</a>
+                            <button type="button" class="btn btn-1 video-play-btn">
+                              <i class="fas fa-play"></i>
+                            </button>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 bg-danger">
+                <div class="col-lg-5  text-center">
                     <div class="home-img">
-                        <img src="images/app-screenshots/1.png" alt="">
+                      <div class="circle"></div>
+                        <img src="images/app-screenshots/1.png" alt="App">
+                        
                     </div>
                 </div>
             </div>
